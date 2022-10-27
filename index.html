@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Rates</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <table id="rates"></div>
+                <thead>
+                    <tr>
+                        <th>Company</th>
+                        <th>Rate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://www.ally.com/bank/view-rates/">Ally Bank</a></td>
+                        <td id="ally-current">2.35%</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.emigrantdirect.com/securebanking/login.do?_flowExecutionKey=_c303DC4E9-3A0E-0F82-C10A-84C099C03EA7_k7E2AAC8B-4431-FB05-5B0D-190C443F7961">Emigrant Direct</a></td>
+                        <td id="emigrant-current">2.00%</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.dollarsavingsdirect.com/securebanking/login.do?_flowExecutionKey=_c077CE5EA-886D-2F0E-21C5-980BA4D81FAD_k4BB05347-87A7-374D-BB70-CB66A2BBB052">Dollar Savings</a></td>
+                        <td class='best' id="dollar-current">3.50%</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.marcus.com/us/en/savings/high-yield-savings">Marcus Goldman</a></td>
+                        <td id="marcus-current">2.35%</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.americanexpress.com/en-us/banking/online-savings/high-yield-savings/">American Express Savings</a></td>
+                        <td id="american-current">2.35%</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.capitalone.com/bank/savings-accounts/online-performance-savings-account/?external_id=360B_MM_SEM_71700000092215977_GOOGLE_58700007739987663_43700070265456923&06167_SE001492_AlwaysOn=&gclid=CjwKCAjw2OiaBhBSEiwAh2ZSP0AUx_o87ULwbk3UAtXPRFySEYO2kpiNMg8Q0Fowp4KCoBahlZYeBxoCkBoQAvD_BwE&gclsrc=aw.ds">Capital One 360</a></td>
+                        <td id="capital-current">2.35%</td>
+                       
+                    </tr>
+                </tbody>
+                </table>
+                <p id="last-updated">Last Updated: 10/27/22</p>
+                <button id='edit' class='hidden'>Edit</button>
+        </main>
+
+            <form onsubmit="return false" id="form" class="hidden">
+                <p>Update Rates Here</p>
+                <div>
+                    <label for="ally-rate">Ally Rate</label>
+                    <input type="text" name="ally-rate" id="ally-rate">
+                </div>
+                <div>
+                    <label for="emigrant-rate">Emigrant Rate</label>
+                    <input type="text" name="emigrant-rate" id="emigrant-rate">
+                </div>
+                <div>
+                    <label for="dollar-rate">Dollar Savings Rate</label>
+                    <input type="text" name="dollar-rate" id="dollar-rate">
+                </div>
+                <div>
+                    <label for="marcus-rate">Marcus Rate</label>
+                    <input type="text" name="marcus-rate" id="marcus-rate">
+                    </div>
+                    <div>
+                    <label for="american-rate">American Express Rate</label>
+                    <input type="text" name="american-rate" id="american-rate">
+                </div>
+                <div>
+                    <label for="capital-rate">Capital One Rate</label>
+                    <input type="text" name="capital-rate" id="capital-rate">
+                </div>
+                <button id="save">Save</button>
+            </form>
+        <script src="main.js"></script>
+    </body>
+</html>
