@@ -75,3 +75,8 @@ button {
         min-width: 80vw
     }
 }
+
+#subtext {
+    font-size: 1.3rem;
+    font-style: italic;
+}
