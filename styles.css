@@ -7,6 +7,13 @@ body {
     background-color: rgb(218, 218, 218);
 }
 
+@media (max-width: 480px) {
+    table {
+        min-width: 70vw;
+    }
+}
+
+
 main {
     display: flex;
     flex-direction: column;
@@ -46,7 +53,7 @@ a {
 
 table {
     background-color: white;
-    width: 40vw;
+    min-width: 40vw;
 
 }
 
