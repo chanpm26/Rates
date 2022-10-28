@@ -1,6 +1,6 @@
 body {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     min-height: 100vh;
     gap: 2vw;
@@ -28,7 +28,7 @@ tr > td:nth-child(2) {
 td {
     border: 1px solid black;
     font-size: 2rem;
-    padding: 2vh 2vw;
+    padding: 1.3vh 2vw;
 }
 
 th {
@@ -47,7 +47,6 @@ a {
 table {
     background-color: white;
     width: 40vw;
-    max-height: 100v
 
 }
 

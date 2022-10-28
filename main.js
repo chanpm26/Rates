@@ -2,10 +2,10 @@ let ally = ["Ally Bank", 2.35, 'https://www.ally.com/bank/view-rates'];
 let dollar = ["Dollar Savings", 3.5, 'https://www.dollarsavingsdirect.com/securebanking/login.do?_flowExecutionKey=_c077CE5EA-886D-2F0E-21C5-980BA4D81FAD_k4BB05347-87A7-374D-BB70-CB66A2BBB052'];
 let citizens = ["Citizens", 3.0, 'https://www.secure.citizensaccess.com/Citizens/savings'];
 let american = ["American Express", 2.35, 'https://www.americanexpress.com/en-us/banking/online-savings/high-yield-savings'];
-let capital = ["Capital One 360", 2.35, 'https://www.capitalone.com/bank/savings-accounts/online-performance-savings-account/?external_id=360B_MM_SEM_71700000092215977_GOOGLE_58700007739987663_43700070265456923&06167_SE001492_AlwaysOn=&gclid=CjwKCAjw2OiaBhBSEiwAh2ZSP0AUx_o87ULwbk3UAtXPRFySEYO2kpiNMg8Q0Fowp4KCoBahlZYeBxoCkBoQAvD_BwE&gclsrc=aw.ds'];
+let capital = ["Capital One 360", 3.00, 'https://www.capitalone.com/bank/savings-accounts/online-performance-savings-account/?external_id=360B_MM_SEM_71700000092215977_GOOGLE_58700007739987663_43700070265456923&06167_SE001492_AlwaysOn=&gclid=CjwKCAjw2OiaBhBSEiwAh2ZSP0AUx_o87ULwbk3UAtXPRFySEYO2kpiNMg8Q0Fowp4KCoBahlZYeBxoCkBoQAvD_BwE&gclsrc=aw.ds'];
 let cit = ["CIT Bank", 3.0, 'https://www.cit.com/cit-bank/savings-connect?gclid=CjwKCAjw2OiaBhBSEiwAh2ZSP9lH5FshuRhKv3J0K4zB1Mthg67x7l6-InDdEeHi_yfeHV_Ebp73hxoCrkAQAvD_BwE&ef_id=CjwKCAjw2OiaBhBSEiwAh2ZSP9lH5FshuRhKv3J0K4zB1Mthg67x7l6-InDdEeHi_yfeHV_Ebp73hxoCrkAQAvD_BwE:G:s&s_kwcid=AL!5243!3!590126087033!b!!g!!cit%20bank&utm_medium=cpc&utm_source=google&utm_term=cit%20bank&utm_content=mma_45_text_cit&utm_campaign=3Q_ggl_s_hysa_brand_alpha'];
 let sofi = ["Sofi", 2.5, 'https://support.sofi.com/hc/en-us/articles/4421758127245-What-s-my-interest-rate-for-SoFi-Checking-and-Savings-'];
-let marcus = ["Marcus Goldman", 2.35, 'https://www.marcus.com/us/en/savings/high-yield-savings'];
+let marcus = ["Marcus Goldman", 2.50, 'https://www.marcus.com/us/en/savings/high-yield-savings'];
 let vio = ["VioBank", 3.02, 'https://www.viobank.com/cornerstone-money-market-savings'];
 let emigrant = ["Emigrant", 2.00, 'https://www.emigrantdirect.com/securebanking/login.do?_flowExecutionKey=_cCE3C5419-B8E5-B3D5-7261-4CF367A45B07_k41CBC918-3EA4-849C-3407-7743F02575EF'];
 let ibond = ['Ibond', 9.62, 'https://treasurydirect.gov/savings-bonds/i-bonds/i-bonds-interest-rates/#:~:text=The%20composite%20rate%20for%20I,through%20October%202022%20is%209.62%25.']
