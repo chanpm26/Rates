@@ -55,6 +55,12 @@ let emigrant = [
   "https://www.emigrantdirect.com/securebanking/login.do?_flowExecutionKey=_cCE3C5419-B8E5-B3D5-7261-4CF367A45B07_k41CBC918-3EA4-849C-3407-7743F02575EF",
   2.0
 ];
+let etrade = [
+  'Etrade',
+  2.75,
+  'https://us.etrade.com/bank/premium-savings-account',
+  2.75
+]
 let ibond = [
   "Ibond",
   9.62,
@@ -70,6 +76,7 @@ let banksAndRates = [
   cit,
   sofi,
   marcus,
+  etrade,
   vio,
   first,
   emigrant,
@@ -118,7 +125,7 @@ function displayTable() {
     }
     row.appendChild(cellOne);
     row.appendChild(cellTwo);
-    row.appendChild(cellThree)
+    row.appendChild(cellThree);
     table.appendChild(row);
   });
 }

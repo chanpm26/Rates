@@ -8,6 +8,7 @@ body {
 }
 
 main {
+    margin-top: 2vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,7 +29,7 @@ tr > td:nth-child(2) {
 td {
     border: 1px solid black;
     font-size: 2rem;
-    padding: 1.3vh 2vw;
+    padding: 1vh 1.5vw;
 }
 
 th {
@@ -66,13 +67,13 @@ button {
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 800px) {
     td, th, p {
         font-size: 1.5rem;
     }
 
     table {
-        min-width: 80vw
+        width: 80vw
     }
 }
 
