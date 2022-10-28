@@ -7,6 +7,7 @@ body {
     background-color: rgb(218, 218, 218);
 }
 
+
 main {
     display: flex;
     flex-direction: column;
@@ -46,7 +47,7 @@ a {
 
 table {
     background-color: white;
-    width: 40vw;
+    min-width: 40vw;
 
 }
 
@@ -63,4 +64,15 @@ button {
 
 .worst {
     background-color: red;
+}
+
+
+@media (max-width: 480px) {
+    td, th, p {
+        font-size: 1.5rem;
+    }
+
+    table {
+        min-width: 80vw
+    }
 }
