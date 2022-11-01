@@ -51,7 +51,7 @@ let vio = [
 ];
 let emigrant = [
   "Emigrant",
-  2.0,
+  2.50,
   "https://www.emigrantdirect.com/securebanking/login.do?_flowExecutionKey=_cCE3C5419-B8E5-B3D5-7261-4CF367A45B07_k41CBC918-3EA4-849C-3407-7743F02575EF",
   2.0
 ];
