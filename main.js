@@ -63,7 +63,7 @@ let etrade = [
 ]
 let ibond = [
   "Ibond",
-  9.62,
+  6.89,
   "https://treasurydirect.gov/savings-bonds/i-bonds/i-bonds-interest-rates/#:~:text=The%20composite%20rate%20for%20I,through%20October%202022%20is%209.62%25.",
 ];
 
