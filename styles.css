@@ -68,6 +68,9 @@ button {
 
 
 @media (max-width: 800px) {
+    body {
+        -webkit-text-size-adjust: none
+    }
     td, th, p {
         font-size: 1.5rem;
     }
