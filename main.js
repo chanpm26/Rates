@@ -1,4 +1,5 @@
-let ally = ["Ally Bank", 2.35, "https://www.ally.com/bank/view-rates", 2.35];
+let ally = ["Ally Bank", 2.50, 
+"https://www.ally.com/bank/view-rates", 2.35];
 let first = ["First Foundation", 3.10,
 'https://www.firstfoundationinc.com/personal-banking/bank/online-savings', 3.10]
 let dollar = [
@@ -15,7 +16,7 @@ let citizens = [
 ];
 let american = [
   "American Express",
-  2.35,
+  2.50,
   "https://www.americanexpress.com/en-us/banking/online-savings/high-yield-savings",
   2.35
 ];
@@ -33,7 +34,7 @@ let cit = [
 ];
 let sofi = [
   "Sofi",
-  2.5,
+  3.00,
   "https://support.sofi.com/hc/en-us/articles/4421758127245-What-s-my-interest-rate-for-SoFi-Checking-and-Savings-",
   2.5
 ];
