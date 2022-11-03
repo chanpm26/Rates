@@ -115,6 +115,7 @@ function displayTable() {
     link.textContent = pair[0];
     cellOne.appendChild(link);
     let cellTwo = document.createElement("td");
+    cellTwo.classList.add('rate')
     cellTwo.textContent = `${pair[1].toFixed(2)}%`;
     let cellThree = document.createElement("td");
     cellThree.textContent = `${pair[3].toFixed(2)}%`;
@@ -132,10 +133,12 @@ function displayTable() {
 }
 
 let iBondLink = document.createElement("a");
+let iBondP = document.createElement('p')
 iBondLink.href = ibond[2];
-iBondLink.textContent = `Ibond Rate: ${ibond[1]}% || Prior Rate: 9.62%`;
-
+iBondLink.textContent = `Ibond Rate: ${ibond[1]}% `
+iBondP.textContent = `/ Prior Rate: 9.62%`
 iBondContainer.appendChild(iBondLink);
+iBondContainer.appendChild(iBondP);
 
 displayTable();
 

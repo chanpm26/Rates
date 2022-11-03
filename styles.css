@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Kannada&family=Noto+Serif+Devanagari&display=swap');
+
 body {
     display: flex;
     align-items: start;
@@ -5,6 +7,8 @@ body {
     min-height: 100vh;
     gap: 2vw;
     background-color: rgb(218, 218, 218);
+    line-height: 4vh;
+    font-family: 'Anek Kannada', sans-serif;
 }
 
 main {
@@ -17,9 +21,10 @@ main {
 }
 
 p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 tr > td:nth-child(2) {
@@ -27,27 +32,49 @@ tr > td:nth-child(2) {
 }
 
 td {
-    border: 1px solid black;
-    font-size: 2rem;
+    border-bottom: 1px solid black;
+    font-size: 1.5rem;
     padding: 1vh 1.5vw;
 }
 
-th {
-    font-size: 2rem;
-    padding: 2vh 2vw;
+td:nth-child(-n+2) {
     border-right: 1px solid black;
+}
+
+.rate {
+    text-align: center;
+}
+
+th {
+    font-size: 1.5rem;
+    padding: 1vh 2vw;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
     background-color: rgb(21, 21, 148);
     color: white;
+}
+
+th:first-of-type {
+    border-top-left-radius: 10px;
+}
+
+th:last-of-type {
+    border-top-right-radius: 10px;
 
 }
 
+tr:last-of-type > td {
+    border-bottom: none;
+}
+
 a {
-    color: blue;
+    color: black;
 }
 
 table {
     background-color: white;
     min-width: 40vw;
+    border-radius: 10px;
 
 }
 
@@ -55,7 +82,7 @@ button {
     background-color: rgb(21, 21, 148);
     border: none;
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .best {
@@ -66,6 +93,16 @@ button {
     background-color: red;
 }
 
+
+#subtext {
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+#ibond {
+    display: flex;
+    gap: 1vw
+}
 
 @media (max-width: 800px) {
     body {
@@ -78,9 +115,4 @@ button {
     table {
         width: 80vw
     }
-}
-
-#subtext {
-    font-size: 1.3rem;
-    font-style: italic;
 }
