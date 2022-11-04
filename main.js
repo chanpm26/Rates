@@ -15,20 +15,20 @@ let citizens = [
   3.0
 ];
 let american = [
-  "American Express",
+  "AmEx",
   2.50,
   "https://www.americanexpress.com/en-us/banking/online-savings/high-yield-savings",
   2.35
 ];
 let capital = [
-  "Capital One 360",
+  "Capital One",
   3.0,
   "https://www.capitalone.com/bank/savings-accounts/online-performance-savings-account/?external_id=360B_MM_SEM_71700000092215977_GOOGLE_58700007739987663_43700070265456923&06167_SE001492_AlwaysOn=&gclid=CjwKCAjw2OiaBhBSEiwAh2ZSP0AUx_o87ULwbk3UAtXPRFySEYO2kpiNMg8Q0Fowp4KCoBahlZYeBxoCkBoQAvD_BwE&gclsrc=aw.ds",
   2.35
 ];
 let cit = [
-  "CIT Bank",
-  3.0,
+  "CIT",
+  3.25,
   "https://www.cit.com/cit-bank/savings-connect?gclid=CjwKCAjw2OiaBhBSEiwAh2ZSP9lH5FshuRhKv3J0K4zB1Mthg67x7l6-InDdEeHi_yfeHV_Ebp73hxoCrkAQAvD_BwE&ef_id=CjwKCAjw2OiaBhBSEiwAh2ZSP9lH5FshuRhKv3J0K4zB1Mthg67x7l6-InDdEeHi_yfeHV_Ebp73hxoCrkAQAvD_BwE:G:s&s_kwcid=AL!5243!3!590126087033!b!!g!!cit%20bank&utm_medium=cpc&utm_source=google&utm_term=cit%20bank&utm_content=mma_45_text_cit&utm_campaign=3Q_ggl_s_hysa_brand_alpha",
   3.0
 ];
@@ -39,14 +39,14 @@ let sofi = [
   2.5
 ];
 let marcus = [
-  "Marcus Goldman",
+  "Marcus",
   2.5,
   "https://www.marcus.com/us/en/savings/high-yield-savings",
   2.35
 ];
 let vio = [
   "VioBank",
-  3.02,
+  3.52,
   "https://www.viobank.com/cornerstone-money-market-savings",
   3.02
 ];
