@@ -1,7 +1,11 @@
-let ally = ["Ally Bank", 2.50, 
-"https://www.ally.com/bank/view-rates", 2.35];
-let first = ["First Foundation", 3.10,
-'https://www.firstfoundationinc.com/personal-banking/bank/online-savings', 3.10]
+let ally = ["Ally Bank", 
+2.50, 
+"https://www.ally.com/bank/view-rates", 
+2.35];
+let first = ["First Foundation", 
+3.60,
+'https://www.firstfoundationinc.com/personal-banking/bank/online-savings', 
+3.10];
 let dollar = [
   "Dollar Savings",
   3.5,
