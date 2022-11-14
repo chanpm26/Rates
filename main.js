@@ -125,11 +125,17 @@ function displayTable() {
     cellTwo.textContent = `${pair[1].toFixed(2)}%`;
     let cellThree = document.createElement("td");
     cellThree.textContent = `${pair[3].toFixed(2)}%`;
+    cellThree.classList.add('rate')
     if (pair[4] && pair[4] == "best") {
+      cellOne.classList.add("best");
       cellTwo.classList.add("best");
+      cellThree.classList.add("best");
     }
     if (pair[4] && pair[4] == "worst") {
       cellTwo.classList.add("worst");
+      cellOne.classList.add("worst");
+      cellThree.classList.add("worst");
+
     }
     row.appendChild(cellOne);
     row.appendChild(cellTwo);

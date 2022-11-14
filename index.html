@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-        <title>Rates</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <main>
-            <div>
-                <p id="last-updated"></p>
-                <p id="ibond"></p>
-            </div>
-            <table id="rates"></div>
-                <thead>
-                    <tr>
-                        <th>Company <button id="name" class="up">↕</button></th>
-                        <th>Rate <button id="rate" class="up">↕</button></th>
-                        <th>Prior Rate <p id="subtext">Starting October 27</p></th>
-                    </tr>
-                </thead>
-                <tbody id="table">
-                </tbody>
-                </table>
-        </main>
-        <script src="main.js"></script>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rates</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <p>Saving APY Rates</p>
+      <p id="last-updated"></p>
+    </header>
+    <main>
+      <table id="rates">
+        <thead>
+          <tr>
+            <th>Company <button id="name" class="up">↕</button></th>
+            <th>Rate <button id="rate" class="up">↕</button></th>
+            <th>Prior Rate</th>
+          </tr>
+        </thead>
+        <tbody id="table"></tbody>
+      </table>
+      <p id="ibond"></p>
+    </main>
+    <script src="main.js"></script>
+  </body>
 </html>
