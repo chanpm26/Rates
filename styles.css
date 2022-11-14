@@ -104,7 +104,7 @@ button {
 
 #ibond {
     display: flex;
-    gap: .7vw
+    gap: .7vw;
 }
 
 @media (max-width: 800px) {

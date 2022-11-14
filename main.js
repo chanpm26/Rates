@@ -73,9 +73,16 @@ let ibond = [
   6.89,
   "https://treasurydirect.gov/savings-bonds/i-bonds/i-bonds-interest-rates/#:~:text=The%20composite%20rate%20for%20I,through%20October%202022%20is%209.62%25.",
 ];
+let ufb = [
+  "UFB",
+  3.83,
+  'https://www.ufbdirect.com/',
+  3.83
+]
 
 let banksAndRates = [
   ally,
+  ufb,
   dollar,
   citizens,
   american,
