@@ -22,9 +22,9 @@ let citizens = [
 ];
 let american = [
   "AmEx",
-  2.75,
+  3.00,
   "https://www.americanexpress.com/en-us/banking/online-savings/high-yield-savings",
-  2.50
+  2.75
 ];
 let capital = [
   "Capital One",
