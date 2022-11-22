@@ -1,8 +1,8 @@
 let ally = [
    "Ally Bank", 
-   2.75,
+   3.00,
    "https://www.ally.com/bank/view-rates", 
-   2.50];
+   2.75];
 let first = [
    "First Foundation", 
    3.60,
