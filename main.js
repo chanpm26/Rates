@@ -16,7 +16,7 @@ let dollar = [
 ];
 let citizens = [
   "Citizens",
-  3.0,
+  3.75,
   "https://www.secure.citizensaccess.com/Citizens/savings",
   3.0
 ];
