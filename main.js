@@ -5,9 +5,9 @@ let ally = [
    2.75];
 let first = [
    "First Foundation", 
-   3.60,
+   4.00,
    'https://www.firstfoundationinc.com/personal-banking/bank/online-savings', 
-   3.10];
+   3.60];
 let dollar = [
   "Dollar Savings",
   3.5,
