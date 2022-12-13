@@ -52,9 +52,9 @@ let marcus = [
 ];
 let vio = [
   "VioBank",
-  3.62,
+  4.01,
   "https://www.viobank.com/cornerstone-money-market-savings",
-  3.52
+  3.62
 ];
 let emigrant = [
   "Emigrant",
