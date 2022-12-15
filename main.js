@@ -28,9 +28,9 @@ let american = [
 ];
 let capital = [
   "Capital One",
-  3.0,
+  3.30,
   "https://www.capitalone.com/bank/savings-accounts/online-performance-savings-account/?external_id=360B_MM_SEM_71700000092215977_GOOGLE_58700007739987663_43700070265456923&06167_SE001492_AlwaysOn=&gclid=CjwKCAjw2OiaBhBSEiwAh2ZSP0AUx_o87ULwbk3UAtXPRFySEYO2kpiNMg8Q0Fowp4KCoBahlZYeBxoCkBoQAvD_BwE&gclsrc=aw.ds",
-  2.35
+  3.00
 ];
 let cit = [
   "CIT",
@@ -75,9 +75,9 @@ let ibond = [
 ];
 let ufb = [
   "UFB",
-  3.91,
+  4.11,
   'https://www.ufbdirect.com/',
-  3.83
+  3.91
 ]
 
 let banksAndRates = [
