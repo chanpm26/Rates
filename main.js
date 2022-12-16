@@ -1,8 +1,8 @@
 let ally = [
    "Ally Bank", 
-   3.00,
+   3.30,
    "https://www.ally.com/bank/view-rates", 
-   2.75];
+   3.00];
 let first = [
    "First Foundation", 
    4.00,
@@ -34,15 +34,15 @@ let capital = [
 ];
 let cit = [
   "CIT",
-  3.6,
+  3.85,
   "https://www.cit.com/cit-bank/savings-connect?gclid=CjwKCAjw2OiaBhBSEiwAh2ZSP9lH5FshuRhKv3J0K4zB1Mthg67x7l6-InDdEeHi_yfeHV_Ebp73hxoCrkAQAvD_BwE&ef_id=CjwKCAjw2OiaBhBSEiwAh2ZSP9lH5FshuRhKv3J0K4zB1Mthg67x7l6-InDdEeHi_yfeHV_Ebp73hxoCrkAQAvD_BwE:G:s&s_kwcid=AL!5243!3!590126087033!b!!g!!cit%20bank&utm_medium=cpc&utm_source=google&utm_term=cit%20bank&utm_content=mma_45_text_cit&utm_campaign=3Q_ggl_s_hysa_brand_alpha",
-  3.25
+  3.60
 ];
 let sofi = [
   "Sofi",
-  3.25,
+  3.5,
   "https://support.sofi.com/hc/en-us/articles/4421758127245-What-s-my-interest-rate-for-SoFi-Checking-and-Savings-",
-  3.00
+  3.25
 ];
 let marcus = [
   "Marcus",
