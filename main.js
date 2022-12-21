@@ -46,9 +46,9 @@ let sofi = [
 ];
 let marcus = [
   "Marcus",
-  3.0,
+  3.30,
   "https://www.marcus.com/us/en/savings/high-yield-savings",
-  2.50
+  3.0
 ];
 let vio = [
   "VioBank",
