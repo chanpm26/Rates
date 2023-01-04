@@ -83,7 +83,7 @@ let mysavings = [
   "MySavingsDirect",
    4.35,
    'https://www.mysavingsdirect.com/securebanking/login.do?_flowExecutionKey=_c6A831F5D-9319-542E-C973-17A950F118B7_k17BE46EF-76E5-2804-EA7C-CAEDC6699F3D',
-   N/A
+   4.35
 ]
 
 let banksAndRates = [
