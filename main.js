@@ -40,9 +40,9 @@ let cit = [
 ];
 let sofi = [
   "Sofi",
-  3.5,
+  3.75,
   "https://support.sofi.com/hc/en-us/articles/4421758127245-What-s-my-interest-rate-for-SoFi-Checking-and-Savings-",
-  3.25
+  3.5
 ];
 let marcus = [
   "Marcus",
@@ -79,9 +79,16 @@ let ufb = [
   'https://www.ufbdirect.com/',
   3.91
 ]
+let mysavings = [
+  "MySavingsDirect",
+   4.35,
+   'https://www.mysavingsdirect.com/securebanking/login.do?_flowExecutionKey=_c6A831F5D-9319-542E-C973-17A950F118B7_k17BE46EF-76E5-2804-EA7C-CAEDC6699F3D',
+   N/A
+]
 
 let banksAndRates = [
   ally,
+  mysavings, 
   ufb,
   dollar,
   citizens,
