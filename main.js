@@ -34,9 +34,9 @@ let capital = [
 ];
 let cit = [
   "CIT",
-  3.85,
+  4.05,
   "https://www.cit.com/cit-bank/savings-connect?gclid=CjwKCAjw2OiaBhBSEiwAh2ZSP9lH5FshuRhKv3J0K4zB1Mthg67x7l6-InDdEeHi_yfeHV_Ebp73hxoCrkAQAvD_BwE&ef_id=CjwKCAjw2OiaBhBSEiwAh2ZSP9lH5FshuRhKv3J0K4zB1Mthg67x7l6-InDdEeHi_yfeHV_Ebp73hxoCrkAQAvD_BwE:G:s&s_kwcid=AL!5243!3!590126087033!b!!g!!cit%20bank&utm_medium=cpc&utm_source=google&utm_term=cit%20bank&utm_content=mma_45_text_cit&utm_campaign=3Q_ggl_s_hysa_brand_alpha",
-  3.60
+  3.85
 ];
 let sofi = [
   "Sofi",
