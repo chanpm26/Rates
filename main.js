@@ -64,9 +64,9 @@ let emigrant = [
 ];
 let etrade = [
   'Etrade',
-  3.25,
+  3.5,
   'https://us.etrade.com/bank/premium-savings-account',
-  2.75
+  3.25
 ]
 let ibond = [
   "Ibond",
